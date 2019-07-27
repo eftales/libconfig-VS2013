@@ -1,0 +1,31 @@
+﻿生成启动时间为 2019/7/27 23:08:19。
+     1>项目“C:\Users\zjp\Desktop\Compressed\libconfig-master\libconfig-master\lib\libconfig.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\vs2013\VC\bin\CL.exe /c /Zi /nologo /W1 /WX- /O2 /Oy- /D LIBCONFIG_EXPORTS /D YY_NO_UNISTD_H /D YY_USE_CONST /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D _WINDLL /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"libconfig.Debug\\" /Fd"libconfig.Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt grammar.c libconfig.c scanctx.c scanner.c strbuf.c strvec.c util.c wincompat.c
+         grammar.c
+         libconfig.c
+         scanctx.c
+         scanner.c
+         strbuf.c
+         strvec.c
+         util.c
+         wincompat.c
+         正在生成代码...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1193,5): warning MSB8012: TargetPath(C:\Users\zjp\Desktop\Compressed\libconfig-master\libconfig-master\Debug\libconfig.dll) does not match the Linker's OutputFile property value (C:\Users\zjp\Desktop\Compressed\libconfig-master\libconfig-master\Debug\libconfig_d.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1195,5): warning MSB8012: TargetName(libconfig) does not match the Linker's OutputFile property value (libconfig_d). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\vs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\zjp\Desktop\Compressed\libconfig-master\libconfig-master\Debug\libconfig_d.dll" /NOLOGO Shlwapi.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\zjp\Desktop\Compressed\libconfig-master\libconfig-master\Debug\libconfig.pdb" /MAP /MAPINFO:EXPORTS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"C:\Users\zjp\Desktop\Compressed\libconfig-master\libconfig-master\Debug\libconfig.lib" /MACHINE:X86 /SAFESEH /DLL libconfig.Debug\grammar.obj
+         libconfig.Debug\libconfig.obj
+         libconfig.Debug\scanctx.obj
+         libconfig.Debug\scanner.obj
+         libconfig.Debug\strbuf.obj
+         libconfig.Debug\strvec.obj
+         libconfig.Debug\util.obj
+         libconfig.Debug\wincompat.obj
+            正在创建库 C:\Users\zjp\Desktop\Compressed\libconfig-master\libconfig-master\Debug\libconfig.lib 和对象 C:\Users\zjp\Desktop\Compressed\libconfig-master\libconfig-master\Debug\libconfig.exp
+         libconfig.vcxproj -> C:\Users\zjp\Desktop\Compressed\libconfig-master\libconfig-master\Debug\libconfig.dll
+     1>已完成生成项目“C:\Users\zjp\Desktop\Compressed\libconfig-master\libconfig-master\lib\libconfig.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:07.28

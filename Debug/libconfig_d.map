@@ -1,0 +1,552 @@
+ libconfig_d
+
+ Timestamp is 5d3c68ea (Sat Jul 27 23:08:26 2019)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00008ecdH .text$mn                CODE
+ 0002:00000000 00000104H .CRT$XCA                DATA
+ 0002:00000104 00000104H .CRT$XCZ                DATA
+ 0002:00000208 00000104H .CRT$XIA                DATA
+ 0002:0000030c 00000104H .CRT$XIAA               DATA
+ 0002:00000410 00000104H .CRT$XIC                DATA
+ 0002:00000514 00000104H .CRT$XIZ                DATA
+ 0002:00000620 0000155fH .rdata                  DATA
+ 0002:00001b80 0000019eH .rdata$debug            DATA
+ 0002:00001d20 00000104H .rdata$sxdata           DATA
+ 0002:00001e24 00000104H .rtc$IAA                DATA
+ 0002:00001f28 00000104H .rtc$IZZ                DATA
+ 0002:0000202c 00000104H .rtc$TAA                DATA
+ 0002:00002130 00000104H .rtc$TZZ                DATA
+ 0002:00002238 00000178H .xdata$x                DATA
+ 0002:000023b0 00000b5eH .edata                  DATA
+ 0003:00000000 0000013cH .data                   DATA
+ 0003:00000140 0000036cH .bss                    DATA
+ 0004:00000000 000001c0H .idata$5                DATA
+ 0004:000001c0 0000003cH .idata$2                DATA
+ 0004:000001fc 00000014H .idata$3                DATA
+ 0004:00000210 000001c0H .idata$4                DATA
+ 0004:000003d0 0000052bH .idata$6                DATA
+ 0005:00000000 00000169H .rsrc$01                DATA
+ 0005:00000170 000002ccH .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       __except_list              00000000     <absolute>
+ 0000:00000000       ___guard_fids_count        00000000     <absolute>
+ 0000:00000000       ___guard_fids_table        00000000     <absolute>
+ 0000:00000000       ___guard_flags             00000000     <absolute>
+ 0000:00000001       ___safe_se_handler_count   00000001     <absolute>
+ 0000:00009876       __ldused                   00009876     <absolute>
+ 0000:00009876       __fltused                  00009876     <absolute>
+ 0000:00000000       ___ImageBase               10000000     <linker-defined>
+ 0001:000004e0       _libconfig_yyerror         100014e0 f   grammar.obj
+ 0001:00000520       _libconfig_yyparse         10001520 f   grammar.obj
+ 0001:00001120       _DllMain@12                10002120 f   libconfig.obj
+ 0001:000020f0       _config_clear              100030f0 f   libconfig.obj
+ 0001:00002140       _config_default_include_func 10003140 f   libconfig.obj
+ 0001:00002250       _config_destroy            10003250 f   libconfig.obj
+ 0001:00002290       _config_get_float_precision 10003290 f   libconfig.obj
+ 0001:000022a0       _config_get_option         100032a0 f   libconfig.obj
+ 0001:000022c0       _config_get_options        100032c0 f   libconfig.obj
+ 0001:000022d0       _config_get_tab_width      100032d0 f   libconfig.obj
+ 0001:000022e0       _config_init               100032e0 f   libconfig.obj
+ 0001:00002350       _config_lookup             10003350 f   libconfig.obj
+ 0001:00002370       _config_lookup_bool        10003370 f   libconfig.obj
+ 0001:000023b0       _config_lookup_float       100033b0 f   libconfig.obj
+ 0001:000023e0       _config_lookup_int         100033e0 f   libconfig.obj
+ 0001:00002410       _config_lookup_int64       10003410 f   libconfig.obj
+ 0001:00002440       _config_lookup_string      10003440 f   libconfig.obj
+ 0001:00002480       _config_read               10003480 f   libconfig.obj
+ 0001:000024a0       _config_read_file          100034a0 f   libconfig.obj
+ 0001:00002580       _config_read_string        10003580 f   libconfig.obj
+ 0001:000025a0       _config_set_destructor     100035a0 f   libconfig.obj
+ 0001:000025c0       _config_set_float_precision 100035c0 f   libconfig.obj
+ 0001:000025e0       _config_set_hook           100035e0 f   libconfig.obj
+ 0001:00002600       _config_set_include_dir    10003600 f   libconfig.obj
+ 0001:00002630       _config_set_include_func   10003630 f   libconfig.obj
+ 0001:00002650       _config_set_option         10003650 f   libconfig.obj
+ 0001:00002680       _config_set_options        10003680 f   libconfig.obj
+ 0001:000026a0       _config_set_tab_width      100036a0 f   libconfig.obj
+ 0001:000026d0       _config_setting_add        100036d0 f   libconfig.obj
+ 0001:00002860       _config_setting_get_bool   10003860 f   libconfig.obj
+ 0001:00002880       _config_setting_get_bool_elem 10003880 f   libconfig.obj
+ 0001:000028e0       _config_setting_get_elem   100038e0 f   libconfig.obj
+ 0001:00002930       _config_setting_get_float  10003930 f   libconfig.obj
+ 0001:000029c0       _config_setting_get_float_elem 100039c0 f   libconfig.obj
+ 0001:00002a90       _config_setting_get_format 10003a90 f   libconfig.obj
+ 0001:00002ac0       _config_setting_get_int    10003ac0 f   libconfig.obj
+ 0001:00002af0       _config_setting_get_int64  10003af0 f   libconfig.obj
+ 0001:00002b20       _config_setting_get_int64_elem 10003b20 f   libconfig.obj
+ 0001:00002bb0       _config_setting_get_int_elem 10003bb0 f   libconfig.obj
+ 0001:00002c20       _config_setting_get_member 10003c20 f   libconfig.obj
+ 0001:00002c50       _config_setting_get_string 10003c50 f   libconfig.obj
+ 0001:00002c70       _config_setting_get_string_elem 10003c70 f   libconfig.obj
+ 0001:00002cd0       _config_setting_index      10003cd0 f   libconfig.obj
+ 0001:00002d20       _config_setting_is_aggregate 10003d20 f   libconfig.obj
+ 0001:00002d50       _config_setting_is_scalar  10003d50 f   libconfig.obj
+ 0001:00002d70       _config_setting_length     10003d70 f   libconfig.obj
+ 0001:00002db0       _config_setting_lookup     10003db0 f   libconfig.obj
+ 0001:00002ec0       _config_setting_lookup_bool 10003ec0 f   libconfig.obj
+ 0001:00002f10       _config_setting_lookup_float 10003f10 f   libconfig.obj
+ 0001:00002f50       _config_setting_lookup_int 10003f50 f   libconfig.obj
+ 0001:00002f90       _config_setting_lookup_int64 10003f90 f   libconfig.obj
+ 0001:00002fd0       _config_setting_lookup_string 10003fd0 f   libconfig.obj
+ 0001:00003020       _config_setting_remove     10004020 f   libconfig.obj
+ 0001:00003100       _config_setting_remove_elem 10004100 f   libconfig.obj
+ 0001:00003160       _config_setting_set_bool   10004160 f   libconfig.obj
+ 0001:000031a0       _config_setting_set_bool_elem 100041a0 f   libconfig.obj
+ 0001:00003280       _config_setting_set_float  10004280 f   libconfig.obj
+ 0001:00003330       _config_setting_set_float_elem 10004330 f   libconfig.obj
+ 0001:00003400       _config_setting_set_format 10004400 f   libconfig.obj
+ 0001:00003450       _config_setting_set_hook   10004450 f   libconfig.obj
+ 0001:00003470       _config_setting_set_int    10004470 f   libconfig.obj
+ 0001:000034e0       _config_setting_set_int64  100044e0 f   libconfig.obj
+ 0001:000035b0       _config_setting_set_int64_elem 100045b0 f   libconfig.obj
+ 0001:00003680       _config_setting_set_int_elem 10004680 f   libconfig.obj
+ 0001:00003780       _config_setting_set_string 10004780 f   libconfig.obj
+ 0001:00003800       _config_setting_set_string_elem 10004800 f   libconfig.obj
+ 0001:000038c0       _config_write              100048c0 f   libconfig.obj
+ 0001:000039b0       _config_write_file         100049b0 f   libconfig.obj
+ 0001:00003a80       _scanctx_cleanup           10004a80 f   scanctx.obj
+ 0001:00003b00       _scanctx_current_filename  10004b00 f   scanctx.obj
+ 0001:00003b30       _scanctx_init              10004b30 f   scanctx.obj
+ 0001:00003b80       _scanctx_next_include_file 10004b80 f   scanctx.obj
+ 0001:00003c30       _scanctx_pop_include       10004c30 f   scanctx.obj
+ 0001:00003ca0       _scanctx_push_include      10004ca0 f   scanctx.obj
+ 0001:00003dc0       _scanctx_take_string       10004dc0 f   scanctx.obj
+ 0001:00003e00       _libconfig_yy_create_buffer 10004e00 f   scanner.obj
+ 0001:00003e80       _libconfig_yy_delete_buffer 10004e80 f   scanner.obj
+ 0001:00003ee0       _libconfig_yy_flush_buffer 10004ee0 f   scanner.obj
+ 0001:00004050       _libconfig_yy_scan_buffer  10005050 f   scanner.obj
+ 0001:00004100       _libconfig_yy_scan_bytes   10005100 f   scanner.obj
+ 0001:000041a0       _libconfig_yy_scan_string  100051a0 f   scanner.obj
+ 0001:000041e0       _libconfig_yy_switch_to_buffer 100051e0 f   scanner.obj
+ 0001:000042a0       _libconfig_yyalloc         100052a0 f   scanner.obj
+ 0001:00004380       _libconfig_yyfree          10005380 f   scanner.obj
+ 0001:000043a0       _libconfig_yyget_column    100053a0 f   scanner.obj
+ 0001:000043d0       _libconfig_yyget_debug     100053d0 f   scanner.obj
+ 0001:000043e0       _libconfig_yyget_extra     100053e0 f   scanner.obj
+ 0001:000043f0       _libconfig_yyget_in        100053f0 f   scanner.obj
+ 0001:00004400       _libconfig_yyget_leng      10005400 f   scanner.obj
+ 0001:00004410       _libconfig_yyget_lineno    10005410 f   scanner.obj
+ 0001:00004440       _libconfig_yyget_lval      10005440 f   scanner.obj
+ 0001:00004450       _libconfig_yyget_out       10005450 f   scanner.obj
+ 0001:00004460       _libconfig_yyget_text      10005460 f   scanner.obj
+ 0001:00004470       _libconfig_yylex           10005470 f   scanner.obj
+ 0001:00005680       _libconfig_yylex_destroy   10006680 f   scanner.obj
+ 0001:00005770       _libconfig_yylex_init      10006770 f   scanner.obj
+ 0001:000057e0       _libconfig_yylex_init_extra 100067e0 f   scanner.obj
+ 0001:00005860       _libconfig_yypop_buffer_state 10006860 f   scanner.obj
+ 0001:00005920       _libconfig_yypush_buffer_state 10006920 f   scanner.obj
+ 0001:000059f0       _libconfig_yyrealloc       100069f0 f   scanner.obj
+ 0001:00005a10       _libconfig_yyrestart       10006a10 f   scanner.obj
+ 0001:00005ac0       _libconfig_yyset_column    10006ac0 f   scanner.obj
+ 0001:00005b00       _libconfig_yyset_debug     10006b00 f   scanner.obj
+ 0001:00005b20       _libconfig_yyset_extra     10006b20 f   scanner.obj
+ 0001:00005b30       _libconfig_yyset_in        10006b30 f   scanner.obj
+ 0001:00005b50       _libconfig_yyset_lineno    10006b50 f   scanner.obj
+ 0001:00005b90       _libconfig_yyset_lval      10006b90 f   scanner.obj
+ 0001:00005bb0       _libconfig_yyset_out       10006bb0 f   scanner.obj
+ 0001:00006250       _strbuf_append_char        10007250 f   strbuf.obj
+ 0001:000062b0       _strbuf_append_string      100072b0 f   strbuf.obj
+ 0001:00006320       _strbuf_ensure_capacity    10007320 f   strbuf.obj
+ 0001:00006360       _strbuf_release            10007360 f   strbuf.obj
+ 0001:00006380       _strvec_append             10007380 f   strvec.obj
+ 0001:000063e0       _strvec_release            100073e0 f   strvec.obj
+ 0001:00006410       ___delete_vec              10007410 f   util.obj
+ 0001:00006460       _format_double             10007460 f   util.obj
+ 0001:00006540       _parse_hex64               10007540 f   util.obj
+ 0001:00006560       _parse_integer             10007560 f   util.obj
+ 0001:00006600       _fsync                     10007600 f   wincompat.obj
+ 0001:0000667e       _PathIsRelativeA@4         1000767e f   Shlwapi:SHLWAPI.dll
+ 0001:00006684       _FlushFileBuffers@4        10007684 f   kernel32:KERNEL32.dll
+ 0001:0000668a       _GetLastError@0            1000768a f   kernel32:KERNEL32.dll
+ 0001:00006690       _free                      10007690 f   MSVCRTD:MSVCR120D.dll
+ 0001:00006696       _malloc                    10007696 f   MSVCRTD:MSVCR120D.dll
+ 0001:000066a0       @__security_check_cookie@4 100076a0 f   MSVCRTD:secchk.obj
+ 0001:000066b0       __configthreadlocale       100076b0 f   MSVCRTD:MSVCR120D.dll
+ 0001:000066b6       _setlocale                 100076b6 f   MSVCRTD:MSVCR120D.dll
+ 0001:000066bc       _isalpha                   100076bc f   MSVCRTD:MSVCR120D.dll
+ 0001:000066c2       _isdigit                   100076c2 f   MSVCRTD:MSVCR120D.dll
+ 0001:000066c8       _fclose                    100076c8 f   MSVCRTD:MSVCR120D.dll
+ 0001:000066ce       __fileno                   100076ce f   MSVCRTD:MSVCR120D.dll
+ 0001:000066d4       _fopen                     100076d4 f   MSVCRTD:MSVCR120D.dll
+ 0001:000066da       _fprintf                   100076da f   MSVCRTD:MSVCR120D.dll
+ 0001:000066e0       _fputc                     100076e0 f   MSVCRTD:MSVCR120D.dll
+ 0001:000066e6       _fputs                     100076e6 f   MSVCRTD:MSVCR120D.dll
+ 0001:000066ec       _atoi                      100076ec f   MSVCRTD:MSVCR120D.dll
+ 0001:000066f2       _calloc                    100076f2 f   MSVCRTD:MSVCR120D.dll
+ 0001:000066f8       _realloc                   100076f8 f   MSVCRTD:MSVCR120D.dll
+ 0001:000066fe       _memmove                   100076fe f   MSVCRTD:MSVCR120D.dll
+ 0001:00006704       _strchr                    10007704 f   MSVCRTD:MSVCR120D.dll
+ 0001:0000670a       __fstat64i32               1000770a f   MSVCRTD:MSVCR120D.dll
+ 0001:00006710       __ftoui3                   10007710 f   MSVCRTD:ftol3.obj
+ 0001:0000671f       __ftoul3                   1000771f f   MSVCRTD:ftol3.obj
+ 0001:0000672e       __ftol3                    1000772e f   MSVCRTD:ftol3.obj
+ 0001:0000673b       __ftol3_NaN                1000773b f   MSVCRTD:ftol3.obj
+ 0001:00006753       __ftol3_work               10007753 f   MSVCRTD:ftol3.obj
+ 0001:000067d9       __ftol3_common             100077d9 f   MSVCRTD:ftol3.obj
+ 0001:0000689b       __ftol3_arg_error          1000789b f   MSVCRTD:ftol3.obj
+ 0001:000068ad       __ftol3_except             100078ad f   MSVCRTD:ftol3.obj
+ 0001:000068f1       __dtoui3                   100078f1 f   MSVCRTD:ftol3.obj
+ 0001:00006900       __dtoul3                   10007900 f   MSVCRTD:ftol3.obj
+ 0001:0000690f       __dtol3                    1000790f f   MSVCRTD:ftol3.obj
+ 0001:0000691c       __dtol3_NaN                1000791c f   MSVCRTD:ftol3.obj
+ 0001:00006939       __dtol3_work               10007939 f   MSVCRTD:ftol3.obj
+ 0001:00006a1e       __ultod3                   10007a1e f   MSVCRTD:ftol3.obj
+ 0001:00006aaf       __ltod3                    10007aaf f   MSVCRTD:ftol3.obj
+ 0001:00006ade       _memset                    10007ade f   MSVCRTD:MSVCR120D.dll
+ 0001:00006ae4       ___iob_func                10007ae4 f   MSVCRTD:MSVCR120D.dll
+ 0001:00006aea       _clearerr                  10007aea f   MSVCRTD:MSVCR120D.dll
+ 0001:00006af0       _ferror                    10007af0 f   MSVCRTD:MSVCR120D.dll
+ 0001:00006af6       _fread                     10007af6 f   MSVCRTD:MSVCR120D.dll
+ 0001:00006afc       _fwrite                    10007afc f   MSVCRTD:MSVCR120D.dll
+ 0001:00006b02       _getc                      10007b02 f   MSVCRTD:MSVCR120D.dll
+ 0001:00006b08       __errno                    10007b08 f   MSVCRTD:MSVCR120D.dll
+ 0001:00006b0e       _exit                      10007b0e f   MSVCRTD:MSVCR120D.dll
+ 0001:00006b14       _atof                      10007b14 f   MSVCRTD:MSVCR120D.dll
+ 0001:00006b1a       _atoll                     10007b1a f   MSVCRTD:MSVCR120D.dll
+ 0001:00006b20       _strtol                    10007b20 f   MSVCRTD:MSVCR120D.dll
+ 0001:00006b26       _strtoul                   10007b26 f   MSVCRTD:MSVCR120D.dll
+ 0001:00006b2c       _strtoll                   10007b2c f   MSVCRTD:MSVCR120D.dll
+ 0001:00006b32       _strtoull                  10007b32 f   MSVCRTD:MSVCR120D.dll
+ 0001:00006b38       _sprintf_s                 10007b38 f   MSVCRTD:MSVCR120D.dll
+ 0001:00006b3e       __get_osfhandle            10007b3e f   MSVCRTD:MSVCR120D.dll
+ 0001:00006bd0       _NtCurrentTeb              10007bd0 f i MSVCRTD:crtdll.obj
+ 0001:00006be0       __CRT_INIT@12              10007be0 f   MSVCRTD:crtdll.obj
+ 0001:00006ec0       __DllMainCRTStartup@12     10007ec0 f   MSVCRTD:crtdll.obj
+ 0001:000070b0       ___raise_securityfailure   100080b0 f   MSVCRTD:gs_report.obj
+ 0001:00007100       ___report_gsfailure        10008100 f   MSVCRTD:gs_report.obj
+ 0001:00007210       ___report_rangecheckfailure 10008210 f   MSVCRTD:gs_report.obj
+ 0001:00007220       ___report_securityfailure  10008220 f   MSVCRTD:gs_report.obj
+ 0001:00007300       ___report_securityfailureEx 10008300 f   MSVCRTD:gs_report.obj
+ 0001:00007426       __except1                  10008426 f   MSVCRTD:MSVCR120D.dll
+ 0001:0000742c       ___CppXcptFilter           1000842c f   MSVCRTD:MSVCR120D.dll
+ 0001:00007432       __amsg_exit                10008432 f   MSVCRTD:MSVCR120D.dll
+ 0001:00007438       __malloc_dbg               10008438 f   MSVCRTD:MSVCR120D.dll
+ 0001:0000743e       __free_dbg                 1000843e f   MSVCRTD:MSVCR120D.dll
+ 0001:00007444       __CrtSetCheckCount         10008444 f   MSVCRTD:MSVCR120D.dll
+ 0001:00007450       __FindPESection            10008450 f   MSVCRTD:pesect.obj
+ 0001:000074d0       __IsNonwritableInCurrentImage 100084d0 f   MSVCRTD:pesect.obj
+ 0001:00007600       __ValidateImageBase        10008600 f   MSVCRTD:pesect.obj
+ 0001:00007660       ___atonexitinit            10008660 f   MSVCRTD:atonexit.obj
+ 0001:00007710       __onexit                   10008710 f   MSVCRTD:atonexit.obj
+ 0001:00007810       _atexit                    10008810 f   MSVCRTD:atonexit.obj
+ 0001:00007840       ___security_init_cookie    10008840 f   MSVCRTD:gs_support.obj
+ 0001:00007920       __RTC_Initialize           10008920 f   MSVCRTD:initsect.obj
+ 0001:00007950       __RTC_Terminate            10008950 f   MSVCRTD:initsect.obj
+ 0001:00007976       __initterm                 10008976 f   MSVCRTD:MSVCR120D.dll
+ 0001:0000797c       __initterm_e               1000897c f   MSVCRTD:MSVCR120D.dll
+ 0001:00007990       ___clean_type_info_names   10008990 f   MSVCRTD:tncleanup.obj
+ 0001:000079b0       __except_handler4          100089b0 f   MSVCRTD:chandler4gs.obj
+ 0001:000079d8       __crt_debugger_hook        100089d8 f   MSVCRTD:MSVCR120D.dll
+ 0001:000079de       ___crtUnhandledException   100089de f   MSVCRTD:MSVCR120D.dll
+ 0001:000079e4       ___crtTerminateProcess     100089e4 f   MSVCRTD:MSVCR120D.dll
+ 0001:000079ea       __lock                     100089ea f   MSVCRTD:MSVCR120D.dll
+ 0001:000079f0       __unlock                   100089f0 f   MSVCRTD:MSVCR120D.dll
+ 0001:000079f6       __CrtDbgReportW            100089f6 f   MSVCRTD:MSVCR120D.dll
+ 0001:000079fc       __calloc_dbg               100089fc f   MSVCRTD:MSVCR120D.dll
+ 0001:00007a02       ___dllonexit               10008a02 f   MSVCRTD:MSVCR120D.dll
+ 0001:00007a08       ___clean_type_info_names_internal 10008a08 f   MSVCRTD:MSVCR120D.dll
+ 0001:00007a0e       __except_handler4_common   10008a0e f   MSVCRTD:MSVCR120D.dll
+ 0001:00007a14       _EncodePointer@4           10008a14 f   kernel32:KERNEL32.dll
+ 0001:00007a1a       _DecodePointer@4           10008a1a f   kernel32:KERNEL32.dll
+ 0001:00007a20       _IsDebuggerPresent@0       10008a20 f   kernel32:KERNEL32.dll
+ 0001:00007a26       _IsProcessorFeaturePresent@4 10008a26 f   kernel32:KERNEL32.dll
+ 0001:00007a2c       _QueryPerformanceCounter@4 10008a2c f   kernel32:KERNEL32.dll
+ 0001:00007a32       _GetCurrentProcessId@0     10008a32 f   kernel32:KERNEL32.dll
+ 0001:00007a38       _GetCurrentThreadId@0      10008a38 f   kernel32:KERNEL32.dll
+ 0001:00007a3e       _GetSystemTimeAsFileTime@4 10008a3e f   kernel32:KERNEL32.dll
+ 0001:00007a44       __strdup                   10008a44 f   MSVCRTD:MSVCR120D.dll
+ 0002:00000000       ___xc_a                    1000a000     MSVCRTD:cinitexe.obj
+ 0002:00000104       ___xc_z                    1000a104     MSVCRTD:cinitexe.obj
+ 0002:00000208       ___xi_a                    1000a208     MSVCRTD:cinitexe.obj
+ 0002:00000514       ___xi_z                    1000a514     MSVCRTD:cinitexe.obj
+ 0002:00000658       ??_C@_0CB@DGGFMBMG@mismatched?5element?5type?5in?5array@ 1000a658     grammar.obj
+ 0002:00000680       ??_C@_0BH@ICKAEFLH@duplicate?5setting?5name?$AA@ 1000a680     grammar.obj
+ 0002:0000098c       ??_C@_0N@MNJHOOI@syntax?5error?$AA@ 1000a98c     grammar.obj
+ 0002:0000099c       ??_C@_0BB@IJMKJPOK@memory?5exhausted?$AA@ 1000a99c     grammar.obj
+ 0002:000009b0       ??_C@_0P@IMDPLAPH@file?5I?1O?5error?$AA@ 1000a9b0     libconfig.obj
+ 0002:000009c4       ??_C@_01GFHCPBMG@C?$AA@    1000a9c4     libconfig.obj
+ 0002:000009c8       ??_C@_03GBOCGLKB@?3?4?1?$AA@ 1000a9c8     libconfig.obj
+ 0002:000009cc       ??_C@_01CLKCMJKC@?5?$AA@   1000a9cc     libconfig.obj
+ 0002:000009d0       ??_C@_03HIJPJGOM@?$CF?$CKs?$AA@ 1000a9d0     libconfig.obj
+ 0002:000009d4       ??_C@_04LOAJBDKD@true?$AA@ 1000a9d4     libconfig.obj
+ 0002:000009dc       ??_C@_05LAPONLG@false?$AA@ 1000a9dc     libconfig.obj
+ 0002:000009e4       ??_C@_04HKJDGLEA@0x?$CFX?$AA@ 1000a9e4     libconfig.obj
+ 0002:000009ec       ??_C@_02DPKJAMEF@?$CFd?$AA@ 1000a9ec     libconfig.obj
+ 0002:000009f0       ??_C@_08JCOLLBOI@0x?$CFI64XL?$AA@ 1000a9f0     libconfig.obj
+ 0002:000009fc       ??_C@_06JFHLCMDL@?$CFI64dL?$AA@ 1000a9fc     libconfig.obj
+ 0002:00000a04       ??_C@_02JOGGLHBA@?2n?$AA@  1000aa04     libconfig.obj
+ 0002:00000a08       ??_C@_02HIBBOKEN@?2r?$AA@  1000aa08     libconfig.obj
+ 0002:00000a0c       ??_C@_02FGLPDNBI@?2f?$AA@  1000aa0c     libconfig.obj
+ 0002:00000a10       ??_C@_02COELENML@?2t?$AA@  1000aa10     libconfig.obj
+ 0002:00000a14       ??_C@_06MNBAJCJJ@?2x?$CF02X?$AA@ 1000aa14     libconfig.obj
+ 0002:00000a1c       ??_C@_02KDGEBFBH@?$CI?5?$AA@ 1000aa1c     libconfig.obj
+ 0002:00000a20       ??_C@_02PFNDMDBO@?$FL?5?$AA@ 1000aa20     libconfig.obj
+ 0002:00000a24       ??_C@_02KCPFEJNG@?$HL?6?$AA@ 1000aa24     libconfig.obj
+ 0002:00000a28       ??_C@_03BBKEAIF@?$DP?$DP?$DP?$AA@ 1000aa28     libconfig.obj
+ 0002:00000a2c       ??_C@_03FGPOFMNL@?$CK_?9?$AA@ 1000aa2c     libconfig.obj
+ 0002:00000a30       ??_C@_04LAOFCJDB@?5?$CFc?5?$AA@ 1000aa30     libconfig.obj
+ 0002:00000a38       ??_C@_02BMJICGCB@rt?$AA@   1000aa38     libconfig.obj
+ 0002:00000a3c       ??_C@_02BKFDOEMK@wt?$AA@   1000aa3c     libconfig.obj
+ 0002:00000a40       ??_C@_01KICIPPFI@?2?$AA@   1000aa40     libconfig.obj
+ 0002:00000a44       ??_C@_0BJ@LNCMEOHC@cannot?5open?5include?5file?$AA@ 1000aa44     scanctx.obj
+ 0002:00000a64       ??_C@_0BO@LOEJLOHF@include?5file?5nesting?5too?5deep?$AA@ 1000aa64     scanctx.obj
+ 0002:00000a88       ??_C@_00CNPNBAHC@?$AA@     1000aa88     scanctx.obj
+ 0002:000014c8       ??_C@_0DD@JHONDBLF@fatal?5flex?5scanner?5internal?5erro@ 1000b4c8     scanner.obj
+ 0002:00001508       ??_C@_0DI@MLIALAAB@fatal?5flex?5scanner?5internal?5erro@ 1000b508     scanner.obj
+ 0002:0000154c       ??_C@_0CM@KBIPOOPN@fatal?5error?5?9?5scanner?5input?5buff@ 1000b54c     scanner.obj
+ 0002:00001580       ??_C@_0BN@KCKEEIJO@input?5in?5flex?5scanner?5failed?$AA@ 1000b580     scanner.obj
+ 0002:000015a4       ??_C@_0CO@GMABFCIG@out?5of?5dynamic?5memory?5in?5yy_get_@ 1000b5a4     scanner.obj
+ 0002:000015dc       ??_C@_0CM@KGHDCJOD@out?5of?5dynamic?5memory?5in?5yy_crea@ 1000b5dc     scanner.obj
+ 0002:00001610       ??_C@_0DB@PJCMFNHO@out?5of?5dynamic?5memory?5in?5yyensur@ 1000b610     scanner.obj
+ 0002:0000164c       ??_C@_0CK@BNMIIHCN@out?5of?5dynamic?5memory?5in?5yy_scan@ 1000b64c     scanner.obj
+ 0002:00001680       ??_C@_0CJ@POHJPACM@out?5of?5dynamic?5memory?5in?5yy_scan@ 1000b680     scanner.obj
+ 0002:000016b4       ??_C@_0BO@LOBFGDHO@bad?5buffer?5in?5yy_scan_bytes?$CI?$CJ?$AA@ 1000b6b4     scanner.obj
+ 0002:000016d8       ??_C@_03OFAPEBGM@?$CFs?6?$AA@ 1000b6d8     scanner.obj
+ 0002:000016dc       ??_C@_0CD@JFCJPBLD@yyset_lineno?5called?5with?5no?5buff@ 1000b6dc     scanner.obj
+ 0002:00001708       ??_C@_0CD@PKNINGM@yyset_column?5called?5with?5no?5buff@ 1000b708     scanner.obj
+ 0002:00001738       ??_C@_04GPHHEOMN@?$CF?4?$CKg?$AA@ 1000b738     util.obj
+ 0002:00001740       ??_C@_04HGGMHPIM@?$CF?4?$CKf?$AA@ 1000b740     util.obj
+ 0002:00001748       ??_C@_02ONCLHLPE@?40?$AA@  1000b748     util.obj
+ 0002:000017d4       __pRawDllMain              1000b7d4     MSVCRTD:crtdll.obj
+ 0002:000017d4       __pDefaultRawDllMain       1000b7d4     MSVCRTD:crtdll.obj
+ 0002:000017d8       ??_C@_0CL@CCAGLLEM@f?3?2dd?2vctools?2crt?2crtw32?2dllstuf@ 1000b7d8     MSVCRTD:crtdll.obj
+ 0002:00001810       ??_C@_1MC@KPMPFEII@?$AA?$CI?$AA_?$AA_?$AAo?$AAn?$AAe?$AAx?$AAi?$AAt?$AAb?$AAe?$AAg?$AAi?$AAn?$AA?5?$AA?$CB?$AA?$DN?$AA?5?$AAN?$AAU?$AAL?$AAL?$AA?5?$AA?$CG?$AA?$CG?$AA?5?$AA_?$AA_?$AAo?$AAn?$AAe?$AAx@ 1000b810     MSVCRTD:atonexit.obj
+ 0002:000018d4       ??_C@_15GANGMFKL@?$AA?$CF?$AAs?$AA?$AA@ 1000b8d4     MSVCRTD:atonexit.obj
+ 0002:000018e0       ??_C@_1FK@IGIDCAPD@?$AAf?$AA?3?$AA?2?$AAd?$AAd?$AA?2?$AAv?$AAc?$AAt?$AAo?$AAo?$AAl?$AAs?$AA?2?$AAc?$AAr?$AAt?$AA?2?$AAc?$AAr?$AAt?$AAw?$AA3?$AA2?$AA?2?$AAd?$AAl?$AAl?$AAs?$AAt?$AAu?$AAf@ 1000b8e0     MSVCRTD:atonexit.obj
+ 0002:0000193c       ??_C@_0CN@LMJJPMEG@f?3?2dd?2vctools?2crt?2crtw32?2dllstuf@ 1000b93c     MSVCRTD:atonexit.obj
+ 0002:0000196c       ?ProcessDetach@NativeDll@<CrtImplementationDetails>@@0IB 1000b96c     MSVCRTD:initsect.obj
+ 0002:00001970       ?ProcessAttach@NativeDll@<CrtImplementationDetails>@@0IB 1000b970     MSVCRTD:initsect.obj
+ 0002:00001974       ?ThreadAttach@NativeDll@<CrtImplementationDetails>@@0IB 1000b974     MSVCRTD:initsect.obj
+ 0002:00001978       ?ThreadDetach@NativeDll@<CrtImplementationDetails>@@0IB 1000b978     MSVCRTD:initsect.obj
+ 0002:0000197c       ?ProcessVerifier@NativeDll@<CrtImplementationDetails>@@0IB 1000b97c     MSVCRTD:initsect.obj
+ 0002:00001980       ?value@?$integral_constant@_N$0A@@std@@2_NB 1000b980     MSVCRTD:tncleanup.obj
+ 0002:00001981       ?value@?$integral_constant@_N$00@std@@2_NB 1000b981     MSVCRTD:tncleanup.obj
+ 0002:00001988       __load_config_used         1000b988     MSVCRTD:loadcfg.obj
+ 0002:00001d20       ___safe_se_handler_table   1000bd20     <linker-defined>
+ 0002:00001e24       ___rtc_iaa                 1000be24     MSVCRTD:initsect.obj
+ 0002:00001f28       ___rtc_izz                 1000bf28     MSVCRTD:initsect.obj
+ 0002:0000202c       ___rtc_taa                 1000c02c     MSVCRTD:initsect.obj
+ 0002:00002130       ___rtc_tzz                 1000c130     MSVCRTD:initsect.obj
+ 0003:0000001c       ___security_cookie         1000d01c     MSVCRTD:gs_cookie.obj
+ 0003:00000020       ___security_cookie_complement 1000d020     MSVCRTD:gs_cookie.obj
+ 0003:00000030       ___native_dllmain_reason   1000d030     MSVCRTD:natstart.obj
+ 0003:00000470       ?__type_info_root_node@@3U__type_info_node@@A 1000d470     MSVCRTD:tncleanup.obj
+ 0003:00000478       ___native_startup_lock     1000d478     <common>
+ 0003:00000488       ___native_startup_state    1000d488     <common>
+ 0003:0000048c       ___onexitend               1000d48c     <common>
+ 0003:0000049c       ___onexitbegin             1000d49c     <common>
+ 0003:000004a0       ___dyn_tls_init_callback   1000d4a0     <common>
+ 0004:00000000       __imp__GetCurrentThreadId@0 1000e000     kernel32:KERNEL32.dll
+ 0004:00000004       __imp__GetSystemTimeAsFileTime@4 1000e004     kernel32:KERNEL32.dll
+ 0004:00000008       __imp__FlushFileBuffers@4  1000e008     kernel32:KERNEL32.dll
+ 0004:0000000c       __imp__GetLastError@0      1000e00c     kernel32:KERNEL32.dll
+ 0004:00000010       __imp__QueryPerformanceCounter@4 1000e010     kernel32:KERNEL32.dll
+ 0004:00000014       __imp__IsProcessorFeaturePresent@4 1000e014     kernel32:KERNEL32.dll
+ 0004:00000018       __imp__IsDebuggerPresent@0 1000e018     kernel32:KERNEL32.dll
+ 0004:0000001c       __imp__DecodePointer@4     1000e01c     kernel32:KERNEL32.dll
+ 0004:00000020       __imp__EncodePointer@4     1000e020     kernel32:KERNEL32.dll
+ 0004:00000024       __imp__GetCurrentProcessId@0 1000e024     kernel32:KERNEL32.dll
+ 0004:00000028       \177KERNEL32_NULL_THUNK_DATA 1000e028     kernel32:KERNEL32.dll
+ 0004:0000005c       __imp__fclose              1000e05c     MSVCRTD:MSVCR120D.dll
+ 0004:00000060       __imp___fileno             1000e060     MSVCRTD:MSVCR120D.dll
+ 0004:00000064       __imp__fopen               1000e064     MSVCRTD:MSVCR120D.dll
+ 0004:00000068       __imp__fprintf             1000e068     MSVCRTD:MSVCR120D.dll
+ 0004:0000006c       __imp__fputc               1000e06c     MSVCRTD:MSVCR120D.dll
+ 0004:00000070       __imp__fputs               1000e070     MSVCRTD:MSVCR120D.dll
+ 0004:00000074       __imp__atoi                1000e074     MSVCRTD:MSVCR120D.dll
+ 0004:00000078       __imp__calloc              1000e078     MSVCRTD:MSVCR120D.dll
+ 0004:0000007c       __imp__realloc             1000e07c     MSVCRTD:MSVCR120D.dll
+ 0004:00000080       __imp__memmove             1000e080     MSVCRTD:MSVCR120D.dll
+ 0004:00000084       __imp__strchr              1000e084     MSVCRTD:MSVCR120D.dll
+ 0004:00000088       __imp___fstat64i32         1000e088     MSVCRTD:MSVCR120D.dll
+ 0004:0000008c       __imp__memset              1000e08c     MSVCRTD:MSVCR120D.dll
+ 0004:00000090       __imp____iob_func          1000e090     MSVCRTD:MSVCR120D.dll
+ 0004:00000094       __imp__clearerr            1000e094     MSVCRTD:MSVCR120D.dll
+ 0004:00000098       __imp__ferror              1000e098     MSVCRTD:MSVCR120D.dll
+ 0004:0000009c       __imp__fread               1000e09c     MSVCRTD:MSVCR120D.dll
+ 0004:000000a0       __imp__fwrite              1000e0a0     MSVCRTD:MSVCR120D.dll
+ 0004:000000a4       __imp__getc                1000e0a4     MSVCRTD:MSVCR120D.dll
+ 0004:000000a8       __imp___errno              1000e0a8     MSVCRTD:MSVCR120D.dll
+ 0004:000000ac       __imp__exit                1000e0ac     MSVCRTD:MSVCR120D.dll
+ 0004:000000b0       __imp__atof                1000e0b0     MSVCRTD:MSVCR120D.dll
+ 0004:000000b4       __imp__isdigit             1000e0b4     MSVCRTD:MSVCR120D.dll
+ 0004:000000b8       __imp__strdup              1000e0b8     MSVCRTD:MSVCR120D.dll
+ 0004:000000b8       __imp___strdup             1000e0b8     MSVCRTD:MSVCR120D.dll
+ 0004:000000bc       __imp__strtoul             1000e0bc     MSVCRTD:MSVCR120D.dll
+ 0004:000000c0       __imp__strtoll             1000e0c0     MSVCRTD:MSVCR120D.dll
+ 0004:000000c4       __imp__strtoull            1000e0c4     MSVCRTD:MSVCR120D.dll
+ 0004:000000c8       __imp__sprintf_s           1000e0c8     MSVCRTD:MSVCR120D.dll
+ 0004:000000cc       __imp___get_osfhandle      1000e0cc     MSVCRTD:MSVCR120D.dll
+ 0004:000000d0       __imp___except1            1000e0d0     MSVCRTD:MSVCR120D.dll
+ 0004:000000d4       __imp____CppXcptFilter     1000e0d4     MSVCRTD:MSVCR120D.dll
+ 0004:000000d8       __imp___amsg_exit          1000e0d8     MSVCRTD:MSVCR120D.dll
+ 0004:000000dc       __imp___malloc_dbg         1000e0dc     MSVCRTD:MSVCR120D.dll
+ 0004:000000e0       __imp___free_dbg           1000e0e0     MSVCRTD:MSVCR120D.dll
+ 0004:000000e4       __imp___CrtSetCheckCount   1000e0e4     MSVCRTD:MSVCR120D.dll
+ 0004:000000e8       __imp___initterm           1000e0e8     MSVCRTD:MSVCR120D.dll
+ 0004:000000ec       __imp___initterm_e         1000e0ec     MSVCRTD:MSVCR120D.dll
+ 0004:000000f0       __imp___crt_debugger_hook  1000e0f0     MSVCRTD:MSVCR120D.dll
+ 0004:000000f4       __imp____crtUnhandledException 1000e0f4     MSVCRTD:MSVCR120D.dll
+ 0004:000000f8       __imp____crtTerminateProcess 1000e0f8     MSVCRTD:MSVCR120D.dll
+ 0004:000000fc       __imp___lock               1000e0fc     MSVCRTD:MSVCR120D.dll
+ 0004:00000100       __imp___unlock             1000e100     MSVCRTD:MSVCR120D.dll
+ 0004:00000104       __imp___CrtDbgReportW      1000e104     MSVCRTD:MSVCR120D.dll
+ 0004:00000108       __imp___calloc_dbg         1000e108     MSVCRTD:MSVCR120D.dll
+ 0004:0000010c       __imp____dllonexit         1000e10c     MSVCRTD:MSVCR120D.dll
+ 0004:00000110       __imp___onexit             1000e110     MSVCRTD:MSVCR120D.dll
+ 0004:00000114       __imp____clean_type_info_names_internal 1000e114     MSVCRTD:MSVCR120D.dll
+ 0004:00000118       __imp___except_handler4_common 1000e118     MSVCRTD:MSVCR120D.dll
+ 0004:0000011c       __imp__isalpha             1000e11c     MSVCRTD:MSVCR120D.dll
+ 0004:00000120       __imp__setlocale           1000e120     MSVCRTD:MSVCR120D.dll
+ 0004:00000124       __imp___configthreadlocale 1000e124     MSVCRTD:MSVCR120D.dll
+ 0004:00000128       __imp__malloc              1000e128     MSVCRTD:MSVCR120D.dll
+ 0004:0000012c       __imp__free                1000e12c     MSVCRTD:MSVCR120D.dll
+ 0004:00000130       __imp__atoll               1000e130     MSVCRTD:MSVCR120D.dll
+ 0004:00000134       __imp__strtol              1000e134     MSVCRTD:MSVCR120D.dll
+ 0004:00000138       \177MSVCR120D_NULL_THUNK_DATA 1000e138     MSVCRTD:MSVCR120D.dll
+ 0004:00000190       __imp__PathIsRelativeA@4   1000e190     Shlwapi:SHLWAPI.dll
+ 0004:00000194       \177SHLWAPI_NULL_THUNK_DATA 1000e194     Shlwapi:SHLWAPI.dll
+ 0004:000001c0       __IMPORT_DESCRIPTOR_SHLWAPI 1000e1c0     Shlwapi:SHLWAPI.dll
+ 0004:000001d4       __IMPORT_DESCRIPTOR_KERNEL32 1000e1d4     kernel32:KERNEL32.dll
+ 0004:000001e8       __IMPORT_DESCRIPTOR_MSVCR120D 1000e1e8     MSVCRTD:MSVCR120D.dll
+ 0004:000001fc       __NULL_IMPORT_DESCRIPTOR   1000e1fc     Shlwapi:SHLWAPI.dll
+
+ Exports
+
+  ordinal    name
+
+        1    _config_clear
+               exported name: config_clear
+        2    _config_default_include_func
+               exported name: config_default_include_func
+        3    _config_destroy
+               exported name: config_destroy
+        4    _config_get_float_precision
+               exported name: config_get_float_precision
+        5    _config_get_option
+               exported name: config_get_option
+        6    _config_get_options
+               exported name: config_get_options
+        7    _config_get_tab_width
+               exported name: config_get_tab_width
+        8    _config_init
+               exported name: config_init
+        9    _config_lookup
+               exported name: config_lookup
+       10    _config_lookup_bool
+               exported name: config_lookup_bool
+       11    _config_lookup_float
+               exported name: config_lookup_float
+       12    _config_lookup_int
+               exported name: config_lookup_int
+       13    _config_lookup_int64
+               exported name: config_lookup_int64
+       14    _config_lookup_string
+               exported name: config_lookup_string
+       15    _config_read
+               exported name: config_read
+       16    _config_read_file
+               exported name: config_read_file
+       17    _config_read_string
+               exported name: config_read_string
+       18    _config_set_destructor
+               exported name: config_set_destructor
+       19    _config_set_float_precision
+               exported name: config_set_float_precision
+       20    _config_set_hook
+               exported name: config_set_hook
+       21    _config_set_include_dir
+               exported name: config_set_include_dir
+       22    _config_set_include_func
+               exported name: config_set_include_func
+       23    _config_set_option
+               exported name: config_set_option
+       24    _config_set_options
+               exported name: config_set_options
+       25    _config_set_tab_width
+               exported name: config_set_tab_width
+       26    _config_setting_add
+               exported name: config_setting_add
+       27    _config_setting_get_bool
+               exported name: config_setting_get_bool
+       28    _config_setting_get_bool_elem
+               exported name: config_setting_get_bool_elem
+       29    _config_setting_get_elem
+               exported name: config_setting_get_elem
+       30    _config_setting_get_float
+               exported name: config_setting_get_float
+       31    _config_setting_get_float_elem
+               exported name: config_setting_get_float_elem
+       32    _config_setting_get_format
+               exported name: config_setting_get_format
+       33    _config_setting_get_int
+               exported name: config_setting_get_int
+       34    _config_setting_get_int64
+               exported name: config_setting_get_int64
+       35    _config_setting_get_int64_elem
+               exported name: config_setting_get_int64_elem
+       36    _config_setting_get_int_elem
+               exported name: config_setting_get_int_elem
+       37    _config_setting_get_member
+               exported name: config_setting_get_member
+       38    _config_setting_get_string
+               exported name: config_setting_get_string
+       39    _config_setting_get_string_elem
+               exported name: config_setting_get_string_elem
+       40    _config_setting_index
+               exported name: config_setting_index
+       41    _config_setting_is_aggregate
+               exported name: config_setting_is_aggregate
+       42    _config_setting_is_scalar
+               exported name: config_setting_is_scalar
+       43    _config_setting_length
+               exported name: config_setting_length
+       44    _config_setting_lookup
+               exported name: config_setting_lookup
+       45    _config_setting_lookup_bool
+               exported name: config_setting_lookup_bool
+       46    _config_setting_lookup_float
+               exported name: config_setting_lookup_float
+       47    _config_setting_lookup_int
+               exported name: config_setting_lookup_int
+       48    _config_setting_lookup_int64
+               exported name: config_setting_lookup_int64
+       49    _config_setting_lookup_string
+               exported name: config_setting_lookup_string
+       50    _config_setting_remove
+               exported name: config_setting_remove
+       51    _config_setting_remove_elem
+               exported name: config_setting_remove_elem
+       52    _config_setting_set_bool
+               exported name: config_setting_set_bool
+       53    _config_setting_set_bool_elem
+               exported name: config_setting_set_bool_elem
+       54    _config_setting_set_float
+               exported name: config_setting_set_float
+       55    _config_setting_set_float_elem
+               exported name: config_setting_set_float_elem
+       56    _config_setting_set_format
+               exported name: config_setting_set_format
+       57    _config_setting_set_hook
+               exported name: config_setting_set_hook
+       58    _config_setting_set_int
+               exported name: config_setting_set_int
+       59    _config_setting_set_int64
+               exported name: config_setting_set_int64
+       60    _config_setting_set_int64_elem
+               exported name: config_setting_set_int64_elem
+       61    _config_setting_set_int_elem
+               exported name: config_setting_set_int_elem
+       62    _config_setting_set_string
+               exported name: config_setting_set_string
+       63    _config_setting_set_string_elem
+               exported name: config_setting_set_string_elem
+       64    _config_write
+               exported name: config_write
+       65    _config_write_file
+               exported name: config_write_file
